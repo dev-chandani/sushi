@@ -1,0 +1,485 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* nav section */
+
+nav{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* background-position: fixed; */
+}
+body button{
+    border: none;
+    
+}
+.logo{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid white; */
+    float: left;
+    /* padding-top: 20px;  */
+}
+.spoon {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid aqua; */
+    float: left;
+}
+.data{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid aqua; */
+    float: left;
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+.logo .material-symbols-outlined{   
+    padding-top: 35px;
+    font-size: 90px;
+    margin-left: 140px;
+}
+.search{
+    height: 100%;
+    width: 10%;
+    /* border: 2px solid white; */
+    float: left;
+    position: relative;
+}
+.links{
+    height: 100%;
+    width: 60%;
+    float: left;
+    /* border: 2px solid white; */
+}
+.links a{
+    word-spacing: 60px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 100px;
+}
+a li:hover{
+    text-decoration: underline;
+    color: white;
+}
+.links li{
+    color: white;
+    padding-top: 60px;
+    display: inline-block;
+}
+.ri-search-line{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+
+
+
+/* header section */
+
+
+header{
+    height: 100vh;
+    background-image: url("swetbg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-right:600px;
+}
+header h1{
+    font-size: 70px;
+    padding-top:200px;
+}
+p{
+    padding-top: 30px;
+    font-size: 30px;
+}
+button{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* main section */
+
+main{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.main_top{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.mainbottom{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid; */
+}
+.main_top h1{
+    padding-top: 50px;
+    font-size: 60px;
+   
+}
+.main_top p{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.circle{
+    height: 500px;
+    width: 300px;
+    /* border-radius: 50%; */
+    /* border: 2px solid aqua; */
+    float: left;
+    /* margin-top: 30px; */
+}
+.image1{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid yellow; */
+}
+.content{
+    height: 200px;
+    width: 300px;
+    /* border: 2px solid white; */
+}
+
+.image1 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* border: 2px solid white; */
+    margin-top: -43px;
+    margin-left: -4px;
+}
+.img1{
+    margin-left: 200px;
+}
+.img2{
+    margin-left: 100px;
+}
+.img3{
+    margin-left: 100px;
+}
+.content h2{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.content h5{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    word-spacing: 5px;
+}
+.titleright img{
+    height: 500px;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+
+
+
+/* sectionfst section */
+
+section{
+    height: 100vh;
+}
+.sectleft{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid; */
+    float: left;
+    position: relative;
+}
+.sectleft img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+.sectright{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid; */
+    float: left;
+}
+.sectright h1{
+    font-size: 60px;
+    padding-top: 200px;
+}
+.sectright p{
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+
+
+/* statisics section  */
+
+.statistics{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.stat_top{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.stat_top h1{
+   
+    padding-top: 100px;
+    font-size: 60px;
+}
+.stat_top p{
+    margin-top: 20px;
+    font-size: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.stat_bot{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid; */
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    border: 4px solid white;
+    padding-top: 40px;
+    position: relative;
+}
+.circle:hover{
+    box-shadow: 0px 0px 55px -7px white;
+}
+.sevenk{
+    margin-left: 225px;
+}
+.onenine{
+    margin-left: 100px;
+}
+.thirtyfive{
+    margin-left: 100px;
+}
+.circle h1{
+    font-size: 80px;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    text-align: center;
+}
+.circle p{
+    font-size: 35px;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    text-align: center;
+}
+
+
+
+
+/* title section */
+
+
+.title{
+    height: 100vh;
+}
+.title_left{
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* border: 2px solid; */
+    padding-left: 100px;
+    /* padding-right: 100px; */
+}
+.titleright{
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* border: 2px solid; */
+}
+.title_left h1{
+    font-size: 50px;
+    padding-top: 200px;
+}
+.titleright img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+
+
+/* phoebe section */
+
+.phoebe{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.phoebe img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.phoebe p{
+    /* margin-top: 250px; */
+    text-align: center;
+}
+.phoebe h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+/* subscribe section */
+
+.subscribe{
+    height: 100vh;
+    position: relative;
+}
+.subscribe h1{
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 47%;
+}
+.subscribe p{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    right: 100px;
+    text-align: center;
+}
+.button{
+    background-color: rosybrown;
+    height: 50px;
+    width: 600px;
+    position: absolute;
+    top: 420px;
+    left: 34%;
+    border-radius: 20px;
+}
+.subs{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    left: 400px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+
+
+
+/* footer section */
+
+footer{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.foot{
+    margin-top: 200px;
+    height: 500px;
+    width: 300px;
+    /* border: 2px solid white; */
+    float: left;
+}
+.para{
+    height: 500px;
+    width: 500px;
+    margin-left:100px;
+    padding-right: 20px;
+}
+.para p{
+    padding-top: 30px;
+    word-spacing: 12px;
+}
+.foot h1{
+    /* text-align: center; */
+    font-size: 50px;
+}
+.foot p{
+    font-size: 30px;
+    line-height: 28px;
+}
+.media1{
+    height:60px;
+    width: 100%;
+    /* border: 1px solid; */
+    margin-top: 30px;
+    /* padding-left: 110px; */
+    
+}
+.social1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+
+   
+}
+.app1{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    top: 6px;
+    left: 7px;
+    position: absolute;
+}
+.service{
+    padding-left:50px ;
+}
+.other{
+    padding-left:50px ;
+}
+.about {
+    padding-left: 20px;
+}
